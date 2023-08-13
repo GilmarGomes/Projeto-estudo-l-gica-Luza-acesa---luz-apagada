@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+}

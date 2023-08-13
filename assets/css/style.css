@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: none;
+}
+.container {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.btn1,
+.btn2 {
+  width: 150px;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+
+.imagem1,
+.imagem2 {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+}
+.imagem1 {
+  left: 135px;
+}
+.imagem2 {
+  top: 58px;
+}
+.btn1 {
+  top: 409px;
+  left: 149px;
+}
